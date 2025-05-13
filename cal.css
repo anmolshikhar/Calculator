@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    width: 100%;
+
+}
+
+
+main {
+    width: 50vw;
+    height: 50vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin: auto;
+   margin-top: 100px;
+    /* 1rem top + bottom padding + estimated line height */
+
+
+}
+
+.inbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 2vw;
+    height: 5vh;
+}
+
+#button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
+    border: 2px solid black;
+    width: 30%;
+    height: 65%;
+    padding: 2%;
+}
+
+#input {
+    width: 20vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
