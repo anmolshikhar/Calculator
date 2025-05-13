@@ -17,19 +17,22 @@ header {
 
 
 main {
-    width: 50vw;
+    width: 45vw;
     height: 50vh;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 0;
     margin: auto;
-   margin-top: 100px;
-    /* 1rem top + bottom padding + estimated line height */
+    margin-top: 100px;
 
 
+
+}
+#inputJ[type="text"] {
+    border: 2px inset black;
 }
 
 .inbtn {
@@ -37,8 +40,12 @@ main {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    border: 5% inset black;
     width: 2vw;
     height: 5vh;
+    padding: auto;
+    padding-top: 30%;
+    background-color: hsl(183, 70%, 47%);
 }
 
 #button {
